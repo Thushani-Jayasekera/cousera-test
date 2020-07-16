@@ -1,0 +1,65 @@
+.head{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	border: 2px solid black;
+	margin: 0px 0px 2px 70%;
+}
+.section1> h2{
+	background-color: pink;
+	
+}
+.section2> h2{
+	background-color: red;
+	color: white;
+	
+}
+.section3> h2{
+	background-color: yellow;
+	
+}
+.section1,.section2,.section3{
+	background-color: grey;
+	border: 2px solid black;
+	margin: 20px;
+	
+}
+
+@media (min-width: 992px){
+.section1{
+	float:left;
+	width:27%;
+	height:260px;
+}
+.section2{
+	float:left;
+	width:27%;
+	height:260px;
+}
+.section3{
+	float:left;
+	width:27%;
+	height:260px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.section1{
+	float:left;
+	width:44.2%;
+	
+}
+.section2{
+	float:left;
+	width:44.2%;
+	
+}
+.section3{
+	
+	clear:both;
+	width:96%;
+}
+}
+@media (min-width:767px ){
+
+}
